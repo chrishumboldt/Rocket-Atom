@@ -1,10 +1,10 @@
 {
    "name": "rocket",
    "main": "./lib/index",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "description": "A short description of your package",
    "keywords": [],
-   "repository": "https://github.com/atom/rocket-atom",
+   "repository": "https://github.com/chrishumboldt/Rocket-Atom",
    "license": "MIT",
    "engines": {
       "atom": ">=1.0.0 <2.0.0"
