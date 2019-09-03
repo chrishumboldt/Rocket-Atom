@@ -1,0 +1,77 @@
+'*':
+   'Code Heading':
+      'prefix': 'rocket-heading'
+      'body': """
+      /**
+       * @author ${1}
+       */
+      """
+   'Code Comment':
+      'prefix': 'rocket-comment'
+      'body': """
+      /**
+       * ${1}
+       */
+      """
+   'Code Comment Line':
+      'prefix': 'rocket-comment-line'
+      'body': """
+      /* ${1} */
+      """
+   'Code Comment With Params':
+      'prefix': 'rocket-comment-params'
+      'body': """
+      /**
+       * ${1}
+       *
+       * @param ${2}
+       */
+       """
+   'Code Comment With Deconstructed Params':
+      'prefix': 'rocket-comment-decon-params'
+      'body': """
+      /**
+       * ${1}
+       *
+       * @param object The deconstructed arguments object.
+       * @param object.${2} ${3}
+       */
+      """
+'.html':
+   'HTML Template':
+      'prefix': 'rocket-template-html'
+      'body': """
+         <!DOCTYPE html>
+         <html>
+         <head>
+
+            <meta charset="utf-8">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>$1</title>
+
+         </head>
+         <body>
+
+         </body>
+         </html>
+         """
+   'Include CSS':
+      'prefix': 'rocket-include-css'
+      'body': '<link href="$1" rel="stylesheet" type="text/css">'
+   'Include JS':
+      'prefix': 'rocket-include-js'
+      'body': '<script src="$1"></script>'
+   'Angular NG Container':
+      'prefix': 'rocket-ng-container'
+      'body': '<ng-container>$1</ng-container>'
+'.ts':
+   'Export File':
+      'prefix': 'rocket-export-file'
+      'body': """
+      /**
+       * @author ${1}
+       */
+
+      export * from '${2}';
+      """
