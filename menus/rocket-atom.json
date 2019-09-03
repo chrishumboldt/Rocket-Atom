@@ -12,9 +12,6 @@
          }, {
             "label": "Add Comment With Parameters",
             "command": "rocket:add-comment-with-parameters"
-         }, {
-            "label": "Extend Comment",
-            "command": "rocket:extend-comment"
          }]
       }]
    }]
