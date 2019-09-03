@@ -1,5 +1,5 @@
 {
-   "name": "rocket",
+   "name": "rocket-atom",
    "main": "./lib/index",
    "version": "0.0.2",
    "description": "A short description of your package",
