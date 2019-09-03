@@ -65,6 +65,10 @@
    'Angular NG Container':
       'prefix': 'rocket-ng-container'
       'body': '<ng-container>$1</ng-container>'
+'.scss':
+   'Import Rocket Propel':
+      'prefix': 'rocket-import-propel'
+      'body': '@import \'node_modules/@chrishumboldt/rocket-propel/import\';'
 '.ts':
    'Export File':
       'prefix': 'rocket-export-file'
