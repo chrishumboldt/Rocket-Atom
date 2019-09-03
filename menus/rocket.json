@@ -1,0 +1,18 @@
+{
+   "menu": [{
+      "label": "Packages",
+      "submenu": [{
+         "label": "Rocket",
+         "submenu": [{
+            "label": "Add Comment",
+            "command": "rocket:add-comment"
+         }, {
+            "label": "Add Comment With Author",
+            "command": "rocket:add-comment-with-author"
+         }, {
+            "label": "Add Comment With Parameters",
+            "command": "rocket:add-comment-with-parameters"
+         }]
+      }]
+   }]
+}
