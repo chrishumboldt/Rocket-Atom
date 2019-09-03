@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rocket-atom",
+        "command": "rocket-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rocket-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rocket-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
