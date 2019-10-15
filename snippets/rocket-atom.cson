@@ -27,14 +27,14 @@
        * @param ${2}
        */
        """
-   'Code Comment With Deconstructed Params':
-      'prefix': 'rocket-comment-decon-params'
+   'Code Comment With Deconstructed Options':
+      'prefix': 'rocket-comment-decon-options'
       'body': """
       /**
        * ${1}
        *
-       * @param object The deconstructed arguments object.
-       * @param object.${2} ${3}
+       * @param options - The deconstructed options object.
+       * @param options.${2}
        */
       """
 '.html':
