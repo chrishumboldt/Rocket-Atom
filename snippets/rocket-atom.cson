@@ -1,16 +1,16 @@
 '*':
-   'Code File Heading':
-      'prefix': 'rocket-file-heading'
-      'body': """
-      /**
-       * @author ${1}
-       */
-      """
    'Code Comment Heading':
       'prefix': 'rocket-heading'
       'body': """
       /**
        * ${1}
+       */
+      """
+   'Code Heading File':
+      'prefix': 'rocket-heading-file'
+      'body': """
+      /**
+       * @author ${1}
        */
       """
    'Code Comment':
