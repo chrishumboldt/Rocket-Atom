@@ -9,7 +9,7 @@
    'Code Comment':
       'prefix': 'rocket-comment'
       'body': """
-      /**
+      /*
        * ${1}
        */
       """
