@@ -20,11 +20,6 @@
        * ${1}
        */
       """
-   'Code Comment Line':
-      'prefix': 'rocket-comment-line'
-      'body': """
-      /* ${1} */
-      """
    'Code Comment With Params':
       'prefix': 'rocket-comment-params'
       'body': """
